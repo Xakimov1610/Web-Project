@@ -160,3 +160,70 @@ body{
     margin-bottom: 15px;
     color: var(--text-light-3);
 }
+.banner_wrapper .banner_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 60px;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.banner_wrapper .banner_title span{
+    color: var(--text-dark-green);
+}
+.banner_wrapper .banner_title-text{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    max-width: 450px;
+    color: var(--text-light-2);
+}
+.banner_wrapper .learn-more-btn-section{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 20px;
+}
+.banner_wrapper .header-img-section img{
+    width: 100%;
+    animation: float 5s ease-in-out infinite;
+}
+@keyframes float{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+/*  4 Client */
+.clients{
+    padding: 80px 0 50px;
+    background: var(--bg-light-2);
+}
+.clients h2{
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.25;
+    margin-bottom: 40px;
+    color: var(--text-light-2);
+}
+.client-slider-section .item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+.client-slider-section img{
+    width: auto !important;
+    height: 50px;
+    object-fit: cover;
+}

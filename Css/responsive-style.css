@@ -12,7 +12,11 @@
     .header_wrapper .learn-more-btn{
         padding: 12px 10px !important;
     }
+
      /* 3 Banner */
+    .banner_wrapper .banner-title{
+        font-size: 50px;
+    }
 }
 @media (max-width:1070px){
 
@@ -22,6 +26,7 @@
     }
 
     /* 5 About */
+
 
 }
 @media (max-width:991px){
@@ -48,14 +53,27 @@
     .header_wrapper .navbar-collapse{
         background: var(--bg-white);
     }
+
     /* 3 Banner */
+
+    .banner_wrapper .banner-title{
+        font-size: 36px;
+    }
 
     /* 5 About */
     
 }
 @media (max-width:767px){
     /* 3 Banner */
-
+    .banner_wrapper{
+        padding: 100px 0 100px;
+    }
+    .banner_wrapper .row{
+        flex-direction: column-reverse;
+    }
+    .banner_wrapper .learn-more-btn-section{
+        justify-content: center;
+    }
     /* 7 Pricting */
 
     /* 10 FAQs */
