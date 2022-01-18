@@ -91,6 +91,10 @@ body{
     -moz-transition: all .2s linear;
     -ms-transition: all .2s linear;
     transition: all .2s linear;
+    -webkit-box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
+    box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
+    background-color: var(--bg-light-white);
 }
 .header_wrapper .navbar-brand img{
     max-width: 210px;
@@ -258,4 +262,126 @@ body{
     line-height: 1.7;
     max-width: 700px;
     color: var(--text-light-2);
+}
+.about_wrapper .innovate{
+    background-color: var(--bg-light-2);
+    padding: 80px 0;
+}
+.about_wrapper .projects{
+    padding: 30px 0;
+}
+.about_wrapper .projects h2{
+    color: var(--text-orange);
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+.about_wrapper .projects p{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
+
+/*  6 Features */
+.features_wrapper{
+    padding: 100px 0 80px;
+    background: var(--bg-light-2);
+}
+.features_wrapper .features_subtitle{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-2);
+}
+.features_wrapper .features_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.features_wrapper h3{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: var(--bold-font-weight);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: var(--text-black);
+}
+.features_wrapper .features_text{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: var(--text-light-2);
+}
+.features_wrapper .ft-1{
+    background: var(--bg-features-1);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-1:before{
+    content: url(../images/consultancy.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-2{
+    background: var(--bg-features-2);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-2:before{
+    content: url(../images/solutions.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-3{
+    background: var(--bg-features-3);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-3:before{
+    content: url(../images/simple.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-4{
+    background: var(--bg-features-4);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-4:before{
+    content: url(../images/deadline.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-5{
+    background: var(--bg-features-5);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-5:before{
+    content: url(../images/data.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
+}
+.features_wrapper .ft-6{
+    background: var(--bg-features-6);
+    padding: 40px;
+    border-radius: 15px;
+}
+.features_wrapper .ft-6:before{
+    content: url(../images/flexible.png);
+    position: absolute;
+    display: block;
+    margin-top: -70px;
 }

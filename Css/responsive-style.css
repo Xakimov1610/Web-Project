@@ -27,6 +27,9 @@
 
     /* 5 About */
 
+    .about_wrapper .about_title{
+        font-size: 16px;
+    }
 
 }
 @media (max-width:991px){
@@ -62,6 +65,12 @@
 
     /* 5 About */
     
+    .about_wrapper .about_number{
+        margin: 20px auto;
+    }
+    .about_wrapper .about_title{
+        font-size: 24px;
+    }
 }
 @media (max-width:767px){
     /* 3 Banner */
