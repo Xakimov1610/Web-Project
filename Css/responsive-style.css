@@ -26,7 +26,6 @@
     }
 
     /* 5 About */
-
     .about_wrapper .about_title{
         font-size: 16px;
     }
@@ -58,13 +57,11 @@
     }
 
     /* 3 Banner */
-
     .banner_wrapper .banner-title{
         font-size: 36px;
     }
 
     /* 5 About */
-    
     .about_wrapper .about_number{
         margin: 20px auto;
     }
@@ -73,6 +70,7 @@
     }
 }
 @media (max-width:767px){
+
     /* 3 Banner */
     .banner_wrapper{
         padding: 100px 0 100px;
@@ -83,7 +81,11 @@
     .banner_wrapper .learn-more-btn-section{
         justify-content: center;
     }
+
     /* 7 Pricting */
+    .free_trial .free_title{
+        font-size: 24px;
+    }
 
     /* 10 FAQs */
 }
