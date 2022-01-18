@@ -534,3 +534,49 @@ body{
     vertical-align: bottom;
     color: var(--text-yellow);
 }
+
+/* 8 Reviews */
+.testimonial_wrapper{
+    padding: 100px 0;
+}
+.testimonial_wrapper .testimonials_subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+testimonial_wrapper .testimonials_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 80px;
+    color: var(--text-black);
+}
+.testimonial_wrapper .testimonials_card{
+    border-radius: 15px;
+    padding: 50px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 15%);
+}
+.testimonial_wrapper .testimonials_card h3{
+    font-family: var(--secondary-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-black);
+}
+.testimonial_wrapper .testimonials_role{
+    font-size: 19px;
+    font-weight: 700px;
+    line-height: 1;
+    margin-bottom: 25px;
+    color: var(--text-dark-green);
+}
+.testimonial_wrapper .testimonials_text{
+    font-size: 15px;
+    font-weight: 600px;
+    line-height: 1.5;
+}
