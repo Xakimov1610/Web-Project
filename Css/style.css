@@ -580,3 +580,102 @@ testimonial_wrapper .testimonials_title{
     font-weight: 600px;
     line-height: 1.5;
 }
+
+/* 9 Brands */
+.brand_wrapper{
+    padding: 100px 0;
+    background: var(--bg-light-2);
+}
+.brand_wrapper .brand_subtitle{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.brand_wrapper .brand_title{
+    font-family: var(--secondary-font);
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.brand_wrapper .showcase_card img{
+    width: 100%;
+    border-radius: 15px;
+    padding: 45px 25px;
+    background-color: var(--bg-white);
+    box-shadow: 0 5px 40px rgb(0 0 0 / 8%);
+    transition: 0.7s;
+}
+.brand_wrapper .showcase_card img:hover{
+    transform: scale(1.2);
+    position: relative;
+    z-index: 2;
+}
+
+/* 10 FAQs */
+.faq_wrapper{
+    padding: 100px 0 0;
+}
+.faq_wrapper .faq_subtitle{
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: var(--text-light-3);
+}
+.faq_wrapper .faq_title{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 34px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--text-black);
+}
+.faq_wrapper .accordion-button:hover,
+.faq_wrapper .accordion-button:focus{
+    box-shadow: none;
+    color: var(--text-dark-green);
+}
+.faq_wrapper .accordion-item{
+    border: 0;
+}
+.faq_wrapper .accordion-button{
+    font-size: 21px;
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    color: var(--text-black);
+    background: var(--bg-white);
+    border-radius: 0;
+    padding: 0 0 15px 0;
+    border-bottom: 0px solid var(--text-light-3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.faq_wrapper .accordion-button::after{
+    content: '\002B';
+    font-family: "Font Awesome 5 Free";
+    display: inline-block;
+    background-image: none;
+}
+.faq_wrapper .accordion-button:not(.collapsed):after{
+    content: '\2212';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    display: inline-block;
+    background-image: none;
+    transform: unset;
+}
+.faq_wrapper .accordion-body{
+    color: var(--text-black);
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0 0 20px;
+    padding-bottom: 25px;
+    line-height: 1.5;
+}
+/* 11 Footer */

@@ -88,4 +88,9 @@
     }
 
     /* 10 FAQs */
+    .faq_wrapper .accordion-button{
+        font-size: 18px;
+    }
+
+    /*  11 Footer */
 }
