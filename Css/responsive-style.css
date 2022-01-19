@@ -93,4 +93,7 @@
     }
 
     /*  11 Footer */
+    .footer_wrapper .footer_logo img{
+        max-width: 50%;
+    }
 }
