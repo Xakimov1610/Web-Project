@@ -94,7 +94,7 @@ body{
     -webkit-box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
     -moz-box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
     box-shadow: 7px -11px 7px 11px rgba(34, 60, 80, 0.2);
-    background: url(../images/bg.png) no-repeat;
+    background:var(--bg-light-white);
 }
 .header_wrapper .navbar-brand img{
     max-width: 210px;
